@@ -1,0 +1,36 @@
+html,
+body {
+  background-color: pink;
+  font-family: monospace
+}
+
+h1 {
+  font-size: 300%;
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: white;
+  font-size: 150%;
+}
+
+img {
+  background-color: white;
+  padding-top: 10px;
+  margin-left: 13%
+}
+
+h2 {
+  text-align: center
+}
+
+#display {
+  background-color: lightblue;
+  padding: 15px;
+  padding-left: 25px;
+  margin-left: 40%;
+  margin-top: -385px;
+  font-size: 120%
+}

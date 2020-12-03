@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Pokédex</title>
+</head>
+
+<body>
+  <h1>Pokémon Info Picker</h1>
+
+  <section id="selector">
+    <button>Pikachu</button><br>
+    <button>Eevee</button><br>
+    <button>Falinks</button><br>
+    <button>Aggron</button><br>
+    <button>Decidueye</button><br>
+    <button>Klinklang</button><br>
+    <button>Weavile</button><br>
+    <button>Cinccino</button><br>
+    <button>Necrozma</button><br>
+  </section>
+
+  <section id="display">
+    <h2></h2>
+    <p id="number"></p>
+    <p id="types"></p>
+    <p id="abilities"></p>
+    <p id="hiddenAbility"></p>
+    <p id="biology"></p>
+
+    <input name="shiny" id="shiny" type="checkbox" onclick="displaySprite()">
+    <label for="shiny">Shiny Color</label>
+    <br>
+    <img id="sprite">
+    <img id="femaleSprite">
+  </section>
+
+  <script src="sketch.js"></script>
+
+
+</body></html>
